@@ -1,7 +1,6 @@
-
 import React, { useState } from 'react';
-import { courseData } from './data/courseContent';
-import { Lesson, Phase } from './types';
+import { courseData } from './data/courseContent.ts';
+import { Lesson, Phase } from './types.ts';
 
 // Components
 const CodeBlock: React.FC<{ code: string }> = ({ code }) => (

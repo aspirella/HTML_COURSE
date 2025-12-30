@@ -1,5 +1,4 @@
-
-import { Syllabus } from '../types';
+import { Syllabus } from '../types.ts';
 
 export const courseData: Syllabus = {
   phases: [
