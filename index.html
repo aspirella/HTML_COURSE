@@ -14,29 +14,17 @@
         .prose-pre { background-color: #1e293b; color: #f8fafc; padding: 1.5rem; border-radius: 0.5rem; overflow-x: auto; }
         html { scroll-behavior: smooth; }
         #root:empty::before {
-            content: "Initializing curriculum...";
+            content: "Preparing your curriculum...";
             display: block;
             padding: 40px;
             text-align: center;
             color: #64748b;
-            font-family: sans-serif;
+            font-size: 1.1rem;
         }
     </style>
-    <script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@19.0.0",
-    "react-dom": "https://esm.sh/react-dom@19.0.0",
-    "react-dom/client": "https://esm.sh/react-dom@19.0.0/client",
-    "react/jsx-runtime": "https://esm.sh/react@19.0.0/jsx-runtime",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "react/": "https://esm.sh/react@^19.2.3/"
-  }
-}
-</script>
 </head>
 <body class="bg-slate-50 text-slate-900">
     <div id="root"></div>
-    <script type="module" src="index.tsx"></script>
+    <script type="module" src="index.js"></script>
 </body>
 </html>
